@@ -1,17 +1,113 @@
 body {
-  background-color: #1A1A1D;
+  background-color: #3AAFA9;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  color: #6f2232;
+  color: #FEFFFF;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.navbar {
+  z-index: 1;
+  position: fixed;
+  display: inline;
+
+}
+
+.socials {
+  position: relative;
+  text-align: right;
+  width: 50%;
+  float:right;
+
+
+}
+.phone, .mail, .link{
+  opacity: 0.5;
+}
+.phone:hover, .mail:hover, .link:hover{
+  transition: 0.3s;
+  opacity: 1;
+}
+.menu_holder {
+  position: relative;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: left;
+  width: 50%;
+  float: left;
+
+}
+.menu{
+  opacity: 0.5;
+}
+.menu:hover{
+  transition: 0.3s;
+  opacity: 1;
+}
+.top_container {
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background-color: #3AAFA9;
+}
+
+.middle_container {
+  position: relative;
+
+  padding-left: 0;
+  padding-right: 0;
+  align-items: center;
+
+  background-color: #2b7a78;
+}
+.skills{
+  width: 50%;
+  text-align: left;
+  margin: 50px auto 50px auto;
+  position: relative;
+  line-height: 2;
+
+}
+.skill_row{
+  margin: 100px auto 100px auto;
+}
+.webdev, .sm{
+  width:25%;
+  float: left;
+  margin-right: 20px;
+  clear: none;
+}
+  .pt {
+    width:25%;
+    float: right;
+    margin-left: 20px;
+}
+img {
+  display: inline;
+
+
 }
 
 h3, h2 {
-  color: #C3073F;
+  color: #FEFFFF;
+  font-family: 'Pacifico', sans-serif;
 }
 
 a {
@@ -25,7 +121,8 @@ li {
 label {
   color: white;
 }
-table{
+
+table {
   color: white;
 }
 
@@ -33,11 +130,13 @@ hr {
   border: 8px dotted;
   border-bottom: none;
   border-right: none;
-  border-left:none;
+  border-left: none;
   border-width: 15px;
-  height: 0px;
+  height: 0;
   width: 40%;
-  color: #6f2232;
-
+  color: #17252A;
+}
+.SMDN{
+  font-weight: bolder;
 
 }
